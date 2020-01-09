@@ -1,0 +1,71 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Xero Token Proxy",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/token": {
+      "post": {
+        "operationId": "Token",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+				"properties": {
+					"clientId": {
+						"type": "string"
+					},
+					"clientSecret": {
+						"type": "string"
+					},
+					"code": {
+						"type": "string"
+					},
+					"redirectUri": {
+						"type": "string"
+					}
+				}
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+              "schema": {
+                "type": "object",
+				"properties": {
+					"access_token": {
+						"type": "string"
+					},
+					"id_token": {
+						"type": "string"
+					},
+					"expires_in": {
+						"type": "integer"
+					},
+					"token_type": {
+						"type": "string"
+					},
+					"refresh_token": {
+						"type": "string"
+					}
+				  }
+				}
+			  }
+            }
+		  }
+        }
+	  }
+	}
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ]
+}
