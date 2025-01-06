@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ZJtz",
+      "Properties": [
+        {
+          "Id": "jPop",
+          "Name": "ClientId",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "c1ww",
+          "Name": "ClientSecret",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "BU4T",
+          "Name": "RefreshToken",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "0W4q",
+      "Properties": [
+        {
+          "Id": "nu6O",
+          "Name": "access_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "qzco",
+          "Name": "expires_in",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "7GhK",
+          "Name": "token_type",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "S1jr",
+          "Name": "refresh_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

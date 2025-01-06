@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "M64p",
+      "Properties": [
+        {
+          "Id": "5QDH",
+          "Name": "ClientId",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "sC1l",
+          "Name": "ClientSecret",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ojuz",
+          "Name": "Code",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "IIBC",
+          "Name": "RedirectUri",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "F2rS",
+      "Properties": [
+        {
+          "Id": "0Zj4",
+          "Name": "access_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "A8E5",
+          "Name": "id_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Tr8Y",
+          "Name": "expires_in",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "vpGr",
+          "Name": "token_type",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "85f1",
+          "Name": "refresh_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

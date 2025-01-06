@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:BJz5",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "_Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:BJz5"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}
