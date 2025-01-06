@@ -1,0 +1,11 @@
+{
+  "Id": "BJz5",
+  "Name": "GetTenants_Result",
+  "Properties": [
+    {
+      "Id": "Ma62",
+      "Name": "Tenants",
+      "Type": "List:Custom:WPmF"
+    }
+  ]
+}

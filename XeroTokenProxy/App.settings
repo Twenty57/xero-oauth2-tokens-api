@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "c5Wz",
+    "Name": "BaseURI",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8502"
+  }
+]

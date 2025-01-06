@@ -1,0 +1,16 @@
+{
+  "Id": "WPmF",
+  "Name": "Tenant",
+  "Properties": [
+    {
+      "Id": "tPF7",
+      "Name": "tenantId",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7JN7",
+      "Name": "tenantType",
+      "Type": "Compiled:String"
+    }
+  ]
+}
