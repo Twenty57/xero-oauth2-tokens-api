@@ -7,7 +7,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -85,7 +85,7 @@
         {
           "Id": "HttpContext",
           "Name": "HttpContext",
-          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.OpenAPIWebService.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null",
           "Access": "ReadWrite"
         },
         {
@@ -115,26 +115,26 @@
           "Access": "ReadWrite"
         },
         {
-          "Id": "id_token",
-          "Name": "id_token",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
           "Id": "expires_in",
           "Name": "expires_in",
           "Type": "Compiled:Int32",
           "Access": "ReadWrite"
         },
         {
-          "Id": "token_type",
-          "Name": "token_type",
+          "Id": "id_token",
+          "Name": "id_token",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
           "Id": "refresh_token",
           "Name": "refresh_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "token_type",
+          "Name": "token_type",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

@@ -43,26 +43,26 @@
           "Access": "ReadWrite"
         },
         {
-          "Id": "A8E5",
-          "Name": "id_token",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
           "Id": "Tr8Y",
           "Name": "expires_in",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "vpGr",
-          "Name": "token_type",
+          "Id": "A8E5",
+          "Name": "id_token",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
           "Id": "85f1",
           "Name": "refresh_token",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "vpGr",
+          "Name": "token_type",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

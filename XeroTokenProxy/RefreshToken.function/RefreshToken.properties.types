@@ -43,14 +43,14 @@
           "Access": "ReadWrite"
         },
         {
-          "Id": "7GhK",
-          "Name": "token_type",
+          "Id": "S1jr",
+          "Name": "refresh_token",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "S1jr",
-          "Name": "refresh_token",
+          "Id": "7GhK",
+          "Name": "token_type",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

@@ -39,9 +39,9 @@
       "ValueUsage": "DesignTime",
       "Value": {
         "5QDH": "ClientId",
-        "sC1l": "ClientSecret",
+        "IIBC": "RedirectUri",
         "ojuz": "Code",
-        "IIBC": "RedirectUri"
+        "sC1l": "ClientSecret"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },

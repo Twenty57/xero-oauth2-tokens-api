@@ -5,15 +5,15 @@
       "Id": "SpCg",
       "Properties": [
         {
-          "Id": "ResponseHeaders",
-          "Name": "ResponseHeaders",
-          "Type": "List:Generated:pQaI",
-          "Access": "ReadWrite"
-        },
-        {
           "Id": "ResponseBody",
           "Name": "ResponseBody",
           "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseHeaders",
+          "Name": "ResponseHeaders",
+          "Type": "List:Generated:pQaI",
           "Access": "ReadWrite"
         },
         {
